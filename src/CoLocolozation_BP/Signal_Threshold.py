@@ -123,3 +123,4 @@ def and_gate(data1,data2,*args):
         for i in range(len(args)):
             and_data = np.logical_and(and_data,args[i])
     return and_data
+
